@@ -25,7 +25,7 @@ class Announcement extends CI_Controller
 									'page_title'=>'',
 									'meta_description'=>'',
 									'meta_keywords'=>''
-									),
+						),
 				'js'			=>	$js,
 				'istenderempty'=>$this->announcement_model->isannouncementempty('tender','2'),
 				'isbidempty'=>$this->announcement_model->isannouncementempty('bid','2'),
